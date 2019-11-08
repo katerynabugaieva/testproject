@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'adventcalendar2019';
+title = 'adventcalendar2019';
+let testvar = 0;
+
+constructor() {
+  testvar++;
+}
 }
