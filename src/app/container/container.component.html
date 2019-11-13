@@ -1,6 +1,7 @@
 <div>
     <h1> Augustinum
         Adventskalender</h1>
+    test
     <p>
         Intro mit Erklärung posuere erat a ante venenatis dapibus posuere velit aliquet. Morbi leo risus, porta ac
         consectetur ac, vestibulum at eros. Maecenas sed diam eget risus varius blandit sit amet non magna.
@@ -12,26 +13,26 @@
     <button>Zum Gewinnspiel-Formular</button>
 
     <div>
-            <ul class="weekdays">
-                    <li *ngFor="let day of dayArray">{{day}}</li>
-                </ul>
-                
-                <ul class="day-grid">
-                    <li class="month=prev">25</li>
-                    <li class="month=prev">26</li>
-                    <li class="month=prev">27</li>
-                    <li class="month=prev">28</li>
-                    <li class="month=prev">29</li>
-                    <li class="month=prev">30</li>
-                    <li *ngFor="let d of dateArray" [ngClass]="{'open': d.isOpen}" (click)="openDoor($event)">
-                        {{d.id}}
-                    </li>
-                    <li>25</li>
-                    <li>26</li>
-                    <li>27</li>
-                    <li>28</li>
-                    <li>29</li>
-                </ul>
-                
+        <ul class="weekdays">
+            <li *ngFor="let day of dayArray">{{day}}</li>
+        </ul>
+
+        <ul class="day-grid">
+            <li class="month=prev">25</li>
+            <li class="month=prev">26</li>
+            <li class="month=prev">27</li>
+            <li class="month=prev">28</li>
+            <li class="month=prev">29</li>
+            <li class="month=prev">30</li>
+            <li *ngFor="let d of dateArray" [ngClass]="{'open': d.isOpen}" (click)="openDoor($event)">
+                {{d.id}}
+            </li>
+            <li>25</li>
+            <li>26</li>
+            <li>27</li>
+            <li>28</li>
+            <li>29</li>
+        </ul>
+
     </div>
 </div>
