@@ -1,0 +1,44 @@
+h1 {
+  position: absolute;
+  width: 530px;
+  height: 184px;
+  font-family: GaramondURM;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 80px;
+  line-height: 110%;
+  text-align:center;
+  color:#B00238;
+  text-shadow:2px 2px 0px rgba(0,0,0,.3);
+}
+p{
+  position: absolute;
+width: 648px;
+height: 185px;
+left: 192px;
+top: 398px;
+font-family: Kievit;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+color: #414241;
+}
+button{
+  position: absolute;
+height: 24px;
+left: 423px;
+right: 423px;
+top: calc(50% - 24px/2 + 150px);
+
+font-family: Kievit;
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+/* identical to box height, or 150% */
+color: #FFFF;
+background: #B00238;
+border-radius: 5px;
+}
